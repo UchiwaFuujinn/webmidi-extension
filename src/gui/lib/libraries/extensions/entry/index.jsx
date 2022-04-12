@@ -23,7 +23,7 @@ const entry = {
         });
     },
     extensionId: 'webmidi-extension',
-    extensionURL: 'https://githubAccount.github.io/webmidi-extension/dist/webmidi-extension.mjs',
+    extensionURL: 'https://uchiwafuujinn.github.io/webmidi-extension/dist/webmidi-extension.mjs',
     collaborator: 'githubAccount',
     iconURL: iconURL,
     insetIconURL: insetIconURL,
@@ -38,7 +38,7 @@ const entry = {
     disabled: false,
     bluetoothRequired: false,
     internetConnectionRequired: false,
-    helpLink: 'https://githubAccount.github.io/webmidi-extension/',
+    helpLink: 'https://uchiwafuujinn.github.io/webmidi-extension/',
     setFormatMessage: formatter => {
         formatMessage = formatter;
     },

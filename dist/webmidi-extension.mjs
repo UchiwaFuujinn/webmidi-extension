@@ -43,7 +43,7 @@ var entry = {
   },
 
   extensionId: 'webmidi-extension',
-  extensionURL: 'https://githubAccount.github.io/webmidi-extension/dist/webmidi-extension.mjs',
+  extensionURL: 'https://uchiwafuujinn.github.io/webmidi-extension/dist/webmidi-extension.mjs',
   collaborator: 'githubAccount',
   iconURL: img$2,
   insetIconURL: img$1,
@@ -60,7 +60,7 @@ var entry = {
   disabled: false,
   bluetoothRequired: false,
   internetConnectionRequired: false,
-  helpLink: 'https://githubAccount.github.io/webmidi-extension/',
+  helpLink: 'https://uchiwafuujinn.github.io/webmidi-extension/',
   setFormatMessage: function setFormatMessage(formatter) {
     formatMessage$1 = formatter;
   },
