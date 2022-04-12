@@ -2,7 +2,7 @@
   "name": "webmidi-extension",
   "version": "0.0.0",
   "scripts": {
-    "register": "npx xcratch-register --id=webmidi-extension --gui=../scratch-gui --block=./src/vm/extensions/block --entry=./src/gui/lib/libraries/extensions/entry --core --link --use=extension-support util",
+    "register": "npx xcratch-register --id=WebMidiExtension --gui=../scratch-gui --block=./src/vm/extensions/block --entry=./src/gui/lib/libraries/extensions/entry --core --link --use=extension-support util",
     "build": "npx xcratch-build --module=webmidi-extension --gui=../scratch-gui --block=./src/vm/extensions/block --entry=./src/gui/lib/libraries/extensions/entry"
   },
   "devDependencies": {
