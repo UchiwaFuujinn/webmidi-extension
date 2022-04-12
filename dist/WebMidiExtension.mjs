@@ -67,11 +67,15 @@ var entry = {
   translationMap: translations
 };
 
+var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
+
+var classCallCheck = _classCallCheck;
 
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
@@ -86,13 +90,10 @@ function _defineProperties(target, props) {
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
-  Object.defineProperty(Constructor, "prototype", {
-    writable: false
-  });
   return Constructor;
 }
 
-var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+var createClass = _createClass;
 
 /**
  * Block argument types
@@ -193,10 +194,10 @@ var blockType = BlockType$1;
 
 var Color$1 = /*#__PURE__*/function () {
   function Color() {
-    _classCallCheck(this, Color);
+    classCallCheck(this, Color);
   }
 
-  _createClass(Color, null, [{
+  createClass(Color, null, [{
     key: "RGB_BLACK",
     get:
     /**
@@ -463,10 +464,10 @@ var Color = color$3;
 
 var Cast$1 = /*#__PURE__*/function () {
   function Cast() {
-    _classCallCheck(this, Cast);
+    classCallCheck(this, Cast);
   }
 
-  _createClass(Cast, null, [{
+  createClass(Cast, null, [{
     key: "toNumber",
     value:
     /**
@@ -1298,15 +1299,36 @@ var minilog = web.exports;
 minilog.enable();
 var log$1 = minilog('vm');
 
-function _typeof(obj) {
-  "@babel/helpers - typeof";
+function _typeof2(obj) {
+  if (typeof Symbol === "function" && _typeof$1(Symbol.iterator) === "symbol") {
+    _typeof2 = function _typeof2(obj) {
+      return _typeof$1(obj);
+    };
+  } else {
+    _typeof2 = function _typeof2(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof$1(obj);
+    };
+  }
 
-  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  }, _typeof(obj);
+  return _typeof2(obj);
 }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    _typeof_1 = _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof_1 = _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+
+var _typeof_1 = _typeof;
+var _typeof$1 = _typeof_1;
 
 var formatMessage$1 = {exports: {}};
 
@@ -3225,7 +3247,7 @@ var plurals = {
         children[key] = interpretAST(element[3][key], element, locale, types, join);
       });
       element = [element[0], element[1], element[2], children];
-    } else if (element[2] && _typeof(element[2]) === 'object') {
+    } else if (element[2] && _typeof$1(element[2]) === 'object') {
       children = {};
       Object.keys(element[2]).forEach(function (key) {
         children[key] = interpretAST(element[2][key], element, locale, types, join);
@@ -3490,7 +3512,7 @@ var plurals = {
     /*:: ?: Locales */
     ) {
       var pattern = typeof msg === 'string' ? msg : msg.default;
-      var id = _typeof(msg) === 'object' && msg.id || generateId(pattern);
+      var id = _typeof$1(msg) === 'object' && msg.id || generateId(pattern);
       var translated = translate(pattern, id, locales || currentLocales);
       var format = translated.format || (translated.format = interpret(parse(translated.message), locales || currentLocales, types));
       return format(args);
@@ -3504,7 +3526,7 @@ var plurals = {
     /*:: ?: Locales */
     ) {
       var pattern = typeof msg === 'string' ? msg : msg.default;
-      var id = _typeof(msg) === 'object' && msg.id || generateId(pattern);
+      var id = _typeof$1(msg) === 'object' && msg.id || generateId(pattern);
       var translated = translate(pattern, id, locales || currentLocales);
       var format = translated.toParts || (translated.toParts = interpret.toParts(parse(translated.message, {
         tagsType: tagsType
@@ -3521,7 +3543,7 @@ var plurals = {
     ) {
       var style = node[2];
       return function (fn, args) {
-        var props = _typeof(style) === 'object' ? mapObject(style, args) : style;
+        var props = _typeof$1(style) === 'object' ? mapObject(style, args) : style;
         return typeof fn === 'function' ? fn(props) : fn;
       };
     }
@@ -3678,7 +3700,7 @@ var plurals = {
     , locale
     /*: any */
     ) {
-      if (_typeof(offset) === 'object' && _typeof(options) !== 'object') {
+      if (_typeof$1(offset) === 'object' && _typeof$1(options) !== 'object') {
         // offset is optional
         locale = options;
         options = offset;
@@ -3707,7 +3729,7 @@ var Timer$1 = /*#__PURE__*/function () {
   function Timer() {
     var nowObj = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : Timer.nowObj;
 
-    _classCallCheck(this, Timer);
+    classCallCheck(this, Timer);
 
     /**
      * Used to store the start time of a timer action.
@@ -3728,7 +3750,7 @@ var Timer$1 = /*#__PURE__*/function () {
    */
 
 
-  _createClass(Timer, [{
+  createClass(Timer, [{
     key: "time",
     value:
     /**
@@ -4124,7 +4146,7 @@ function m_sysexout(data, size) {
 
 var Scratch3WebMIDI = /*#__PURE__*/function () {
   function Scratch3WebMIDI(runtime) {
-    _classCallCheck(this, Scratch3WebMIDI);
+    classCallCheck(this, Scratch3WebMIDI);
 
     /**
      * The runtime instantiating this block package.
@@ -4174,7 +4196,7 @@ var Scratch3WebMIDI = /*#__PURE__*/function () {
    */
 
 
-  _createClass(Scratch3WebMIDI, [{
+  createClass(Scratch3WebMIDI, [{
     key: "getInfo",
     value: function getInfo() {
       return {
