@@ -2,7 +2,7 @@
  * This is an extension for Xcratch.
  */
 
-import iconURL from './entry-icon.png';
+import iconURL from './webmidi.png';
 import insetIconURL from './inset-icon.svg';
 import translations from './translations.json';
 
