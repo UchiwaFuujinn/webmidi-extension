@@ -759,7 +759,7 @@ var setupTranslations = function setupTranslations() {
   }
 };
 
-var EXTENSION_ID = 'webmidi-extension';
+var EXTENSION_ID = 'WebMidiExtension';
 /**
  * URL to get this extension as a module.
  * When it was loaded as a module, 'extensionURL' will be replaced a URL which is retrieved from.

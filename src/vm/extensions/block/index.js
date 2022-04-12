@@ -25,7 +25,7 @@ const setupTranslations = () => {
     }
 };
 
-const EXTENSION_ID = 'webmidi-extension';
+const EXTENSION_ID = 'WebMidiExtension';
 
 /**
  * URL to get this extension as a module.
