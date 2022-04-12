@@ -1,0 +1,14 @@
+{
+  "en": {
+    "webmidi-extension.name": "WebMidi Extension",
+    "webmidi-extension.doIt": "do it [SCRIPT]"
+  },
+  "ja": {
+    "webmidi-extension.name": "WebMidi Extension",
+    "webmidi-extension.doIt": "[SCRIPT] を実行する"
+  },
+  "ja-Hira": {
+    "webmidi-extension.name": "WebMidi Extension",
+    "webmidi-extension.doIt": "[SCRIPT] をじっこうする"
+  }
+}
