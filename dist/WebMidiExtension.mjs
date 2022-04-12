@@ -3,19 +3,19 @@ var img$2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAF0CAYAAAD/4EcMA
 var img$1 = "data:image/svg+xml,%3c%3fxml version='1.0' encoding='UTF-8' standalone='no'%3f%3e%3c!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3e%3csvg width='100%25' height='100%25' viewBox='0 0 53 53' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3bclip-rule:evenodd%3bstroke-linejoin:round%3bstroke-miterlimit:2%3b'%3e%3crect id='%e3%82%a2%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%891' x='0' y='-0' width='52.083' height='52.056' style='fill:none%3b'/%3e%3cclipPath id='_clip1'%3e%3crect x='0' y='-0' width='52.083' height='52.056'/%3e%3c/clipPath%3e%3cg clip-path='url(%23_clip1)'%3e%3cg%3e%3cg%3e%3cpath d='M17.605%2c14.113c1.125%2c0.983 1.582%2c2.148 2.563%2c3.17c2.407%2c2.507 4.811%2c5.102 7.423%2c7.551c4.352%2c4.079 10.045%2c7.577 14.675%2c11.435' style='fill:none%3bstroke:white%3bstroke-width:19.17px%3bstroke-linecap:round%3bstroke-miterlimit:1.5%3b'/%3e%3cpath d='M40.824%2c11.292c-0.914%2c2.03 -3.668%2c3.898 -5.723%2c5.559c-2.684%2c2.171 -5.276%2c4.398 -7.941%2c6.581c-7.278%2c5.958 -12.955%2c12.359 -18.301%2c19.04' style='fill:none%3bstroke:white%3bstroke-width:19.17px%3bstroke-linecap:round%3bstroke-miterlimit:1.5%3b'/%3e%3c/g%3e%3cg%3e%3cpath d='M17.605%2c14.113c1.125%2c0.983 1.582%2c2.148 2.563%2c3.17c2.407%2c2.507 4.811%2c5.102 7.423%2c7.551c4.352%2c4.079 10.045%2c7.577 14.675%2c11.435' style='fill:none%3bstroke:%23f9a83a%3bstroke-width:12.5px%3bstroke-linecap:round%3bstroke-miterlimit:1.5%3b'/%3e%3cpath d='M40.824%2c11.292c-0.914%2c2.03 -3.668%2c3.898 -5.723%2c5.559c-2.684%2c2.171 -5.276%2c4.398 -7.941%2c6.581c-7.278%2c5.958 -12.955%2c12.359 -18.301%2c19.04' style='fill:none%3bstroke:%23f9a83a%3bstroke-width:12.5px%3bstroke-linecap:round%3bstroke-miterlimit:1.5%3b'/%3e%3c/g%3e%3cg%3e%3cpath d='M16.783%2c15.055c0.264%2c0.231 0.482%2c0.475 0.679%2c0.725c0.621%2c0.785 1.078%2c1.612 1.804%2c2.368c1.456%2c1.517 2.91%2c3.065 4.41%2c4.594c0.996%2c1.015 2.012%2c2.021 3.06%2c3.004c1.353%2c1.268 2.831%2c2.481 4.368%2c3.666c3.429%2c2.643 7.152%2c5.143 10.362%2c7.817c0.53%2c0.442 1.319%2c0.37 1.76%2c-0.16c0.442%2c-0.53 0.37%2c-1.319 -0.16%2c-1.76c-3.233%2c-2.694 -6.982%2c-5.215 -10.435%2c-7.877c-1.472%2c-1.135 -2.89%2c-2.296 -4.185%2c-3.51c-1.023%2c-0.959 -2.014%2c-1.941 -2.985%2c-2.931c-1.494%2c-1.522 -2.942%2c-3.064 -4.392%2c-4.574c-0.667%2c-0.695 -1.075%2c-1.465 -1.645%2c-2.187c-0.288%2c-0.365 -0.61%2c-0.72 -0.997%2c-1.058c-0.52%2c-0.454 -1.31%2c-0.4 -1.764%2c0.119c-0.453%2c0.52 -0.4%2c1.31 0.12%2c1.764Z' style='fill:white%3b'/%3e%3cpath d='M39.685%2c10.779c-0.331%2c0.733 -0.963%2c1.428 -1.694%2c2.108c-1.138%2c1.059 -2.52%2c2.058 -3.676%2c2.992l-7.947%2c6.585c-3.596%2c2.944 -6.805%2c5.995 -9.778%2c9.133c-3.104%2c3.276 -5.949%2c6.648 -8.707%2c10.094c-0.431%2c0.539 -0.343%2c1.326 0.195%2c1.757c0.539%2c0.431 1.326%2c0.344 1.757%2c-0.195c2.715%2c-3.392 5.515%2c-6.712 8.57%2c-9.937c2.903%2c-3.064 6.036%2c-6.043 9.547%2c-8.917l7.935%2c-6.576c1.418%2c-1.146 3.155%2c-2.393 4.43%2c-3.716c0.716%2c-0.743 1.293%2c-1.516 1.647%2c-2.301c0.283%2c-0.629 0.003%2c-1.37 -0.626%2c-1.653c-0.629%2c-0.284 -1.37%2c-0.003 -1.653%2c0.626Z' style='fill:white%3b'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
 
 var en$1 = {
-	"webmidi-extension.entry.name": "WebMidi Extension",
-	"webmidi-extension.entry.description": "Description of this extension"
+	"WebMidiExtension.entry.name": "WebMidi Extension",
+	"WebMidiExtension.entry.description": "Description of this extension"
 };
 var ja$1 = {
-	"webmidi-extension.entry.name": "WebMidi Extension",
-	"webmidi-extension.entry.description": "拡張機能の説明"
+	"WebMidiExtension.entry.name": "WebMidi Extension",
+	"WebMidiExtension.entry.description": "拡張機能の説明"
 };
 var translations$1 = {
 	en: en$1,
 	ja: ja$1,
 	"ja-Hira": {
-	"webmidi-extension.entry.name": "WebMidi Extension",
-	"webmidi-extension.entry.description": "かくちょうきのうのせつめい"
+	"WebMidiExtension.entry.name": "WebMidi Extension",
+	"WebMidiExtension.entry.description": "かくちょうきのうのせつめい"
 }
 };
 
@@ -36,14 +36,14 @@ var formatMessage$1 = function formatMessage(messageData) {
 var entry = {
   get name() {
     return formatMessage$1({
-      id: 'webmidi-extension.entry.name',
+      id: 'WebMidiExtension.entry.name',
       default: 'WebMidi Extension',
       description: 'name of the extension'
     });
   },
 
-  extensionId: 'webmidi-extension',
-  extensionURL: 'https://uchiwafuujinn.github.io/webmidi-extension/dist/webmidi-extension.mjs',
+  extensionId: 'WebMidiExtension',
+  extensionURL: 'https://githubAccount.github.io/webmidi-extension/dist/WebMidiExtension.mjs',
   collaborator: 'githubAccount',
   iconURL: img$2,
   insetIconURL: img$1,
@@ -52,7 +52,7 @@ var entry = {
     return formatMessage$1({
       defaultMessage: 'an extension for Xcratch',
       description: 'Description for this extension',
-      id: 'webmidi-extension.entry.description'
+      id: 'WebMidiExtension.entry.description'
     });
   },
 
@@ -60,7 +60,7 @@ var entry = {
   disabled: false,
   bluetoothRequired: false,
   internetConnectionRequired: false,
-  helpLink: 'https://uchiwafuujinn.github.io/webmidi-extension/',
+  helpLink: 'https://githubAccount.github.io/webmidi-extension/',
   setFormatMessage: function setFormatMessage(formatter) {
     formatMessage$1 = formatter;
   },
@@ -718,19 +718,19 @@ var Cast = /*#__PURE__*/function () {
 var cast = Cast;
 
 var en = {
-	"webmidi-extension.name": "WebMidi Extension",
-	"webmidi-extension.doIt": "do it [SCRIPT]"
+	"WebMidiExtension.name": "WebMidi Extension",
+	"WebMidiExtension.doIt": "do it [SCRIPT]"
 };
 var ja = {
-	"webmidi-extension.name": "WebMidi Extension",
-	"webmidi-extension.doIt": "[SCRIPT] を実行する"
+	"WebMidiExtension.name": "WebMidi Extension",
+	"WebMidiExtension.doIt": "[SCRIPT] を実行する"
 };
 var translations = {
 	en: en,
 	ja: ja,
 	"ja-Hira": {
-	"webmidi-extension.name": "WebMidi Extension",
-	"webmidi-extension.doIt": "[SCRIPT] をじっこうする"
+	"WebMidiExtension.name": "WebMidi Extension",
+	"WebMidiExtension.doIt": "[SCRIPT] をじっこうする"
 }
 };
 
@@ -766,7 +766,7 @@ var EXTENSION_ID = 'WebMidiExtension';
  * @type {string}
  */
 
-var extensionURL = 'https://githubAccount.github.io/webmidi-extension/dist/webmidi-extension.mjs';
+var extensionURL = 'https://githubAccount.github.io/webmidi-extension/dist/WebMidiExtension.mjs';
 /**
  * Scratch 3.0 blocks for example of Xcratch.
  */
@@ -818,7 +818,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           blockType: blockType.REPORTER,
           blockAllThreads: false,
           text: formatMessage({
-            id: 'webmidi-extension.doIt',
+            id: 'WebMidiExtension.doIt',
             default: 'do it [SCRIPT]',
             description: 'execute javascript for example'
           }),
@@ -841,7 +841,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
      */
     function get() {
       return formatMessage({
-        id: 'webmidi-extension.name',
+        id: 'WebMidiExtension.name',
         default: 'WebMidi Extension',
         description: 'name of the extension'
       });

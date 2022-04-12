@@ -18,7 +18,7 @@ This extension can be used with other extension in [Xcratch](https://xcratch.git
 3. Select 'Extension Loader' extension
 4. Type the module URL in the input field 
 ```
-https://githubAccount.github.io/webmidi-extension/dist/webmidi-extension.mjs
+https://githubAccount.github.io/webmidi-extension/dist/WebMidiExtension.mjs
 ```
 
 ## Development

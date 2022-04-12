@@ -1,14 +1,14 @@
 {
   "en": {
-    "webmidi-extension.entry.name": "WebMidi Extension",
-    "webmidi-extension.entry.description": "Description of this extension"
+    "WebMidiExtension.entry.name": "WebMidi Extension",
+    "WebMidiExtension.entry.description": "Description of this extension"
   },
   "ja": {
-    "webmidi-extension.entry.name": "WebMidi Extension",
-    "webmidi-extension.entry.description": "拡張機能の説明"
+    "WebMidiExtension.entry.name": "WebMidi Extension",
+    "WebMidiExtension.entry.description": "拡張機能の説明"
   },
   "ja-Hira": {
-    "webmidi-extension.entry.name": "WebMidi Extension",
-    "webmidi-extension.entry.description": "かくちょうきのうのせつめい"
+    "WebMidiExtension.entry.name": "WebMidi Extension",
+    "WebMidiExtension.entry.description": "かくちょうきのうのせつめい"
   }
 }

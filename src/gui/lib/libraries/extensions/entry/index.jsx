@@ -17,13 +17,13 @@ let formatMessage = messageData => messageData.defaultMessage;
 const entry = {
     get name () {
         return formatMessage({
-            id: 'webmidi-extension.entry.name',
+            id: 'WebMidiExtension.entry.name',
             default: 'WebMidi Extension',
             description: 'name of the extension'
         });
     },
-    extensionId: 'webmidi-extension',
-    extensionURL: 'https://uchiwafuujinn.github.io/webmidi-extension/dist/webmidi-extension.mjs',
+    extensionId: 'WebMidiExtension',
+    extensionURL: 'https://githubAccount.github.io/webmidi-extension/dist/WebMidiExtension.mjs',
     collaborator: 'githubAccount',
     iconURL: iconURL,
     insetIconURL: insetIconURL,
@@ -31,14 +31,14 @@ const entry = {
         return formatMessage({
             defaultMessage: 'an extension for Xcratch',
             description: 'Description for this extension',
-            id: 'webmidi-extension.entry.description'
+            id: 'WebMidiExtension.entry.description'
         });
     },
     featured: true,
     disabled: false,
     bluetoothRequired: false,
     internetConnectionRequired: false,
-    helpLink: 'https://uchiwafuujinn.github.io/webmidi-extension/',
+    helpLink: 'https://githubAccount.github.io/webmidi-extension/',
     setFormatMessage: formatter => {
         formatMessage = formatter;
     },
