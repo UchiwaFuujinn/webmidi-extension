@@ -3,7 +3,7 @@
  */
 
 import iconURL from './webmidi.png';
-import insetIconURL from './webmidi-small.svg';
+import insetIconURL from './webmidi-small.png';
 import translations from './translations.json';
 
 /**
@@ -24,7 +24,7 @@ const entry = {
     },
     extensionId: 'WebMidiExtension',
     extensionURL: 'https://githubAccount.github.io/webmidi-extension/dist/WebMidiExtension.mjs',
-    collaborator: 'githubAccount',
+    collaborator: 'UchiwaFuujinn',
     iconURL: iconURL,
     insetIconURL: insetIconURL,
     get description () {
