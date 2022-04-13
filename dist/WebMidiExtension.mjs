@@ -814,7 +814,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_Ccin',
           text: formatMessage({
-            id: 'webmidi.s_Ccin',
+            id: 'WebMidiExtension.s_Ccin',
             default: 'CC [ccnum]',
             description: 'Control Change Value'
           }),
@@ -852,7 +852,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_Getkeyonnum',
           text: formatMessage({
-            id: 'webmidi.s_Getkeyonnum',
+            id: 'WebMidiExtension.s_Getkeyonnum',
             default: 'KEY ON [ckeynum]',
             description: 'Note Number'
           }),
@@ -866,7 +866,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_Event',
           text: formatMessage({
-            id: 'webmidi.s_Event',
+            id: 'WebMidiExtension.s_Event',
             default: 'EVENT [n_event]',
             description: 'any events recieved?'
           }),
@@ -881,7 +881,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_Noteon_out',
           text: formatMessage({
-            id: 'webmidi.noteon_out',
+            id: 'WebMidiExtension.noteon_out',
             default: 'NOTE ON [channelnum][notenum][velo]',
             description: 'send note on'
           }),
@@ -903,7 +903,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_Noteon_out_duration',
           text: formatMessage({
-            id: 'webmidi.noteon_out_durauion',
+            id: 'WebMidiExtension.noteon_out_durauion',
             default: 'NOTE ON [channelnum][notenum][velo][duration]',
             description: 'send note on with duration'
           }),
@@ -929,7 +929,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_Noteoff_out',
           text: formatMessage({
-            id: 'webmidi.noteoff_out',
+            id: 'WebMidiExtension.noteoff_out',
             default: 'NOTE OFF [channelnum][notenum][velo]',
             description: 'send note off'
           }),
@@ -951,7 +951,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_ProgramChange',
           text: formatMessage({
-            id: 'webmidi.program_change',
+            id: 'WebMidiExtension.program_change',
             default: 'PrgChg [channelnum][pnumber]',
             description: 'send program change'
           }),
@@ -969,7 +969,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_RestTicks',
           text: formatMessage({
-            id: 'webmidi.rest_tickes',
+            id: 'WebMidiExtension.rest_tickes',
             default: 'Rest [rticks] tickes',
             description: 'rest some tickes'
           }),
@@ -983,7 +983,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_GetBeat',
           text: formatMessage({
-            id: 'webmidi.s_GetBeat',
+            id: 'WebMidiExtension.s_GetBeat',
             default: 'BEAT [tempo]',
             description: 'Tempo'
           }),
@@ -997,7 +997,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 's_OutDevice',
           text: formatMessage({
-            id: 'webmidi.out_device',
+            id: 'WebMidiExtension.out_device',
             default: 'Out Dev No. [outdev]',
             description: 'midi out device number'
           }),
@@ -1013,7 +1013,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         {
           opcode: 's_PokeText',
           text: formatMessage({
-            id: 'webmidi.s_poketext',
+            id: 'WebMidiExtension.s_poketext',
             default: 'Pokemiku [rtext]',
             description: 'send text to Pokemiku'
           }),
@@ -1052,35 +1052,35 @@ var ExtensionBlocks = /*#__PURE__*/function () {
     value: function _initEventList() {
       return [{
         text: formatMessage({
-          id: 'webmidi.eventlist.key-on',
+          id: 'WebMidiExtension.eventlist.key-on',
           default: 'key-on',
           description: 'label for event for webmidi extension'
         }),
         value: EventList.KEY_ON
       }, {
         text: formatMessage({
-          id: 'webmidi.eventlist.key-of',
+          id: 'WebMidiExtension.eventlist.key-of',
           default: 'key-of',
           description: 'label for event for webmidi extension'
         }),
         value: EventList.KEY_OF
       }, {
         text: formatMessage({
-          id: 'webmidi.eventlist.cc-chg',
+          id: 'WebMidiExtension.eventlist.cc-chg',
           default: 'cc-chg',
           description: 'label for event for webmidi extension'
         }),
         value: EventList.CC_CHG
       }, {
         text: formatMessage({
-          id: 'webmidi.eventlist.p-bend',
+          id: 'WebMidiExtension.eventlist.p-bend',
           default: 'p-bend',
           description: 'label for event for webmidi extension'
         }),
         value: EventList.P_BEND
       }, {
         text: formatMessage({
-          id: 'webmidi.eventlist.pg-chg',
+          id: 'WebMidiExtension.eventlist.pg-chg',
           default: 'pg-chg',
           description: 'label for event for webmidi extension'
         }),

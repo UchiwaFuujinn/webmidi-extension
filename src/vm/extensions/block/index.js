@@ -154,7 +154,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_Ccin',
 					text: formatMessage({
-						id: 'webmidi.s_Ccin',
+						id: 'WebMidiExtension.s_Ccin',
 						default: 'CC [ccnum]',
 						description: 'Control Change Value'
 					}),
@@ -206,7 +206,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_Getkeyonnum',
 					text: formatMessage({
-						id: 'webmidi.s_Getkeyonnum',
+						id: 'WebMidiExtension.s_Getkeyonnum',
 						default: 'KEY ON [ckeynum]',
 						description: 'Note Number'
 					}),
@@ -222,7 +222,7 @@ class ExtensionBlocks {
 				{
 					 opcode: 's_Event',
 						text: formatMessage({
-							id: 'webmidi.s_Event',
+							id: 'WebMidiExtension.s_Event',
 							default: 'EVENT [n_event]',
 							description: 'any events recieved?'
 						}),
@@ -239,7 +239,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_Noteon_out',
 					text: formatMessage({
-						id: 'webmidi.noteon_out',
+						id: 'WebMidiExtension.noteon_out',
 						default: 'NOTE ON [channelnum][notenum][velo]',
 						description: 'send note on'
 					}),
@@ -263,7 +263,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_Noteon_out_duration',
 					text: formatMessage({
-						id: 'webmidi.noteon_out_durauion',
+						id: 'WebMidiExtension.noteon_out_durauion',
 						default: 'NOTE ON [channelnum][notenum][velo][duration]',
 						description: 'send note on with duration'
 					}),
@@ -291,7 +291,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_Noteoff_out',
 					text: formatMessage({
-						id: 'webmidi.noteoff_out',
+						id: 'WebMidiExtension.noteoff_out',
 						default: 'NOTE OFF [channelnum][notenum][velo]',
 						description: 'send note off'
 					}),
@@ -315,7 +315,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_ProgramChange',
 					text: formatMessage({
-						id: 'webmidi.program_change',
+						id: 'WebMidiExtension.program_change',
 						default: 'PrgChg [channelnum][pnumber]',
 						description: 'send program change'
 					}),
@@ -335,7 +335,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_RestTicks',
 					text: formatMessage({
-						id: 'webmidi.rest_tickes',
+						id: 'WebMidiExtension.rest_tickes',
 						default: 'Rest [rticks] tickes',
 						description: 'rest some tickes'
 					}),
@@ -351,7 +351,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_GetBeat',
 					text: formatMessage({
-						id: 'webmidi.s_GetBeat',
+						id: 'WebMidiExtension.s_GetBeat',
 						default: 'BEAT [tempo]',
 						description: 'Tempo'
 					}),
@@ -367,7 +367,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_OutDevice',
 					text: formatMessage({
-						id: 'webmidi.out_device',
+						id: 'WebMidiExtension.out_device',
 						default: 'Out Dev No. [outdev]',
 						description: 'midi out device number'
 					}),
@@ -385,7 +385,7 @@ class ExtensionBlocks {
 				{
 					opcode: 's_PokeText',
 					text: formatMessage({
-						id: 'webmidi.s_poketext',
+						id: 'WebMidiExtension.s_poketext',
 						default: 'Pokemiku [rtext]',
 						description: 'send text to Pokemiku'
 					}),
@@ -425,7 +425,7 @@ class ExtensionBlocks {
         return [
             {
                 text: formatMessage({
-                    id: 'webmidi.eventlist.key-on',
+                    id: 'WebMidiExtension.eventlist.key-on',
                     default: 'key-on',
                     description: 'label for event for webmidi extension'
                 }),
@@ -433,7 +433,7 @@ class ExtensionBlocks {
             },
             {
                 text: formatMessage({
-                    id: 'webmidi.eventlist.key-of',
+                    id: 'WebMidiExtension.eventlist.key-of',
                     default: 'key-of',
                     description: 'label for event for webmidi extension'
                 }),
@@ -441,7 +441,7 @@ class ExtensionBlocks {
             },
             {
                 text: formatMessage({
-                    id: 'webmidi.eventlist.cc-chg',
+                    id: 'WebMidiExtension.eventlist.cc-chg',
                     default: 'cc-chg',
                     description: 'label for event for webmidi extension'
                 }),
@@ -449,7 +449,7 @@ class ExtensionBlocks {
             },
             {
                 text: formatMessage({
-                    id: 'webmidi.eventlist.p-bend',
+                    id: 'WebMidiExtension.eventlist.p-bend',
                     default: 'p-bend',
                     description: 'label for event for webmidi extension'
                 }),
@@ -458,7 +458,7 @@ class ExtensionBlocks {
             },
 			{
                 text: formatMessage({
-                    id: 'webmidi.eventlist.pg-chg',
+                    id: 'WebMidiExtension.eventlist.pg-chg',
                     default: 'pg-chg',
                     description: 'label for event for webmidi extension'
                 }),
