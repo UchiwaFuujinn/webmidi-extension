@@ -807,50 +807,52 @@ export {
 
 
 /* ----------------------------------------	*/
-	/* for MIDI Ebvent */
-	var mMIDI= null;
-	var mInputs	=null;
-	var mOutputs=null;
+/* for MIDI Ebvent */
+var mMIDI= null;
+var mInputs	=null;
+var mOutputs=null;
 
-	var mOutDev=0;	//Output Device Number
+var mOutDev=0;	//Output Device Number
 
-	var mCtlbuf = new Array(0x80);
-	var mNoteOn = new Array(0x80);
+var mCtlbuf = new Array(0x80);
+var mNoteOn = new Array(0x80);
 
-	var mCC_change_event=false
-	var mMIDI_event		= false;
-	var mKey_on_event	= false;
-	var mKey_off_event	= false;
-	var mPBend_event	= false;
-	var mPC_event		= false;
+var mCC_change_event=false
+var mMIDI_event		= false;
+var mKey_on_event	= false;
+var mKey_off_event	= false;
+var mPBend_event	= false;
+var mPC_event		= false;
 
-	var mCC_change_flag	= false;
-	var mKey_on_flag 	= false;
-	var mKey_off_flag 	= false;
-	var mPC_flag		= false;
-	var mPBend_flag		= false;
+var mCC_change_flag	= false;
+var mKey_on_flag 	= false;
+var mKey_off_flag 	= false;
+var mPC_flag		= false;
+var mPBend_flag		= false;
 
-	var mNoteNum = 0;
-	var mNoteVel = 0;
-	var mPBend	 = 64;
-	var mPCn	 = 0;
+var mNoteNum = 0;
+var mNoteVel = 0;
+var mPBend	 = 64;
+var mPCn	 = 0;
 
-    /* ================================	*/
+/* ================================	*/
 
-	var mCount	= 0;
-	var mBeat	= 0;
-	var mDticks = 1;
-	var mTempo	=120;
-	const mBaseCount=4;
-	const mResolution = 480;
+var mCount	= 0;
+var mBeat	= 0;
+var mDticks = 1;
+var mTempo	=120;
+const mBaseCount=4;
+const mResolution = 480;
 
-	var mTimer = setInterval(function(){
+const menuIconURI = 'data:image/png;base64,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';
+
+var mTimer = setInterval(function(){
 //		clearInterval(id);　//idをclearIntervalで指定している
-		mDticks = mTempo*mResolution/60000;
-		mCount=mCount+mDticks*mBaseCount;
-		mBeat=mBeat+mDticks*mBaseCount;
-		if(mCount>mResolution*4){ mCount = mCount - mResolution*4; }
-	} , mBaseCount);
+    mDticks = mTempo*mResolution/60000;
+    mCount=mCount+mDticks*mBaseCount;
+    mBeat=mBeat+mDticks*mBaseCount;
+    if(mCount>mResolution*4){ mCount = mCount - mResolution*4; }
+} , mBaseCount);
 
 const EventList = {
     KEY_ON:	'key-on',
