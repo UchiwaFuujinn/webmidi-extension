@@ -108,7 +108,7 @@ class ExtensionBlocks {
      */
  	getInfo () {
 		return {
-			id: 'webmidi',
+			id: EXTENSION_ID,
 //			name: 'Web MIDI for Scratch3',
 
             name: formatMessage({

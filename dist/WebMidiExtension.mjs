@@ -782,7 +782,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
     key: "getInfo",
     value: function getInfo() {
       return {
-        id: 'webmidi',
+        id: EXTENSION_ID,
         //			name: 'Web MIDI for Scratch3',
         name: formatMessage({
           id: 'Web MIDI for Scratch3',
