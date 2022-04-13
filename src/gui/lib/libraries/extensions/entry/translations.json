@@ -1,14 +1,14 @@
 {
   "en": {
     "WebMidiExtension.entry.name": "WebMidi Extension",
-    "WebMidiExtension.entry.description": "Description of this extension"
+    "WebMidiExtension.entry.description": "MIDI Extension by Web MIDI API"
   },
   "ja": {
     "WebMidiExtension.entry.name": "WebMidi Extension",
-    "WebMidiExtension.entry.description": "拡張機能の説明"
+    "WebMidiExtension.entry.description": "Web MIDI APIを使ったMIDI Extension"
   },
   "ja-Hira": {
     "WebMidiExtension.entry.name": "WebMidi Extension",
-    "WebMidiExtension.entry.description": "かくちょうきのうのせつめい"
+    "WebMidiExtension.entry.description": "MIDIをつかうためのエクステンション"
   }
 }

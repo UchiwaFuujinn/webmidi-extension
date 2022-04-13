@@ -3,7 +3,7 @@
  */
 
 import iconURL from './webmidi.png';
-import insetIconURL from './inset-icon.svg';
+import insetIconURL from './webmidi-small.svg';
 import translations from './translations.json';
 
 /**
