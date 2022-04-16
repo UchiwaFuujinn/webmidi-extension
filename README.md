@@ -1,8 +1,5 @@
 # WebMidi Extension
 
-WebMidi Extension can be loaded from<br>
-https://uchiwafuujinn.github.io/webmidi-extension/dist/WebMidiExtension.mjs .
-
 An example extension for [Xcratch](https://xcratch.github.io/)
 This extension add extra-block "do it", that executes string in its input field as a sentence in Javascript and return the result.
 
@@ -20,7 +17,7 @@ This extension can be used with other extension in [Xcratch](https://xcratch.git
 3. Select 'Extension Loader' extension
 4. Type the module URL in the input field 
 ```
-https://githubAccount.github.io/webmidi-extension/dist/WebMidiExtension.mjs
+https://uchiwafuujinn.github.io/webmidi-extension/dist/WebMidiExtension.mjs
 ```
 
 ## Development
